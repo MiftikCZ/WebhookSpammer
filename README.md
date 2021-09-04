@@ -1,2 +1,1 @@
-# WebhookSpammer
-webhookspammer nic víc bro
+## Zapni index.html, pak vyplň políčka, to je vše.
