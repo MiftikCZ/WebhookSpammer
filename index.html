@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <script src="webhook_spamer.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MiftikRAID</title>
+</head>
+<body>
+    <h1><span style="color: rgb(212, 122, 122)">MiftikRAID</span> | <span style="color: rgb(110, 223, 153)">Webhook Spammer</span></h1>
+    <textarea id="hook-url" cols="30" rows="10" placeholder="Napiš sem všechy url webhooků"></textarea>
+    <div class="inputs">
+        <input type="text" id="message" placeholder="Jakou zprávu odeslat">
+        <input type="text" id="username" placeholder="Nick webhooků">
+        <input type="text" id="pfp" placeholder="Profilová fotka webhooků (zanech prázdno pro default)">
+        <input type="text" id="repeat" placeholder="Kolikrát napsat zprávu z každého webhooku">
+        <input type="text" id="sleep" placeholder="Delay mezi zprávama v milisekundách (nejlepší 350+)">
+    </div>
+    <div class="buttons">
+        <button onclick="startRaid()" class="on">Zapnout raid</button>
+        <button onclick="stopRaid()"class="off">Zastavit raid</button>
+    </div>
+    
+</body>
+</html>
