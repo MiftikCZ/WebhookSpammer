@@ -1,0 +1,67 @@
+body {
+    background: #121212;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    font-size: 42px;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 1px;
+    text-align: start;
+    border: rgba(0, 0, 0, 0.205) 4px solid;
+    background: rgb(36, 32, 58);
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-radius: 2px;
+    display: inline-block;
+    width: 65%;
+}
+input {
+    padding: 7px 1px;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.205) 4px solid;
+    background: rgb(36, 32, 58);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    border-radius: 2px;
+    display: inline-block;
+    width: 65%;
+}
+button {
+    padding: 7px 1px;
+    cursor: pointer;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.205) 4px solid;
+    background: rgb(36, 32, 58);
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    width: 65%;
+    margin-bottom: 5px;
+    font-size: 24px;
+    border-radius: 2px;
+    transition: 0.7s;
+    display: inline-block;
+    width: 65%;
+}
+
+button:hover{
+    width: 75%;
+}
+input:focus{
+    width: 70%;
+}
+.off {
+    background: rgb(54, 156, 68);
+}
+.on {
+    background: rgb(156, 54, 54);
+}
